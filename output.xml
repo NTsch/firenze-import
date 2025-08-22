@@ -1,0 +1,283 @@
+<cei:cei xmlns:cei="http://www.monasterium.net/NS/cei"
+    xmlns:ead="http://ead3.archivists.org/schema/"
+    xmlns:icar-import="http://www.san.beniculturali.it/icar-import">
+    <cei:text>
+        <cei:group>
+            <cei:h1>Accademia della Colombaria (dono)</cei:h1>
+            <cei:issued>
+                <cei:dateRange from="1264-01-01" to="1726-12-31">1264-01-01 -
+                    1726-12-31</cei:dateRange>
+            </cei:issued>
+            <cei:archIdentifier>
+                <cei:arch/>
+            </cei:archIdentifier>
+            <cei:abstract>Le pergamene non hanno relazione con l'attività dell'Accademia, e sembrano
+                piuttosto costituire una raccolta. Per informazioni storiche sull'Accademia e sul
+                suo archivio cfr., F.Adorno, Accademie e Istituzioni culturali a Firenze, Firenze,
+                Olschki, 1983 (Acarte Tosc. di Scienze e Lettere "la Colombaria", Studi LXV), pp.
+                53-65.</cei:abstract>
+            <cei:text type="charter">
+                <cei:front/>
+                <cei:body>
+                    <cei:idno>ICAR UD 7650</cei:idno>
+                    <cei:chDesc>
+                        <cei:h1>1264 Dicembre 2, Accademia della Colombaria (dono)</cei:h1>
+                        <cei:issued>
+                            <cei:date value="12641202">1264 Dicembre 2</cei:date>
+                        </cei:issued>
+                        <cei:witnessOrig>
+                            <cei:figure>
+                                <cei:graphic
+                                    url="https://archiviodigitale-icar.cultura.gov.it/iiif/diplomatico-firenze@get@16965d35-568b-41ea-b1da-4ec9038dc6f1@original/full/full/0/default.jpg"
+                                />
+                            </cei:figure>
+                            <cei:figure>
+                                <cei:graphic
+                                    url="https://archiviodigitale-icar.cultura.gov.it/iiif/diplomatico-firenze@get@050a588a-296f-4369-8ce8-b6f63ce03c74@original/full/full/0/default.jpg"
+                                />
+                            </cei:figure>
+                            <cei:figure>
+                                <cei:graphic
+                                    url="https://archiviodigitale-icar.cultura.gov.it/iiif/diplomatico-firenze@get@6373df7f-b32e-4831-9128-3410c8d57ac4@original/full/full/0/default.jpg"
+                                />
+                            </cei:figure>
+                            <cei:figure>
+                                <cei:graphic
+                                    url="https://archiviodigitale-icar.cultura.gov.it/iiif/diplomatico-firenze@get@ac8b0d5f-b346-43eb-9bf4-ea73c9e04427@original/full/full/0/default.jpg"
+                                />
+                            </cei:figure>
+                            <cei:archIdentifier>
+                                <cei:arch>ASFI</cei:arch>
+                                <cei:archFond>Diplomatico / Normali / Società
+                                    Colombaria</cei:archFond>
+                                <cei:idno>Numero di codice: 00017097</cei:idno>
+                                <cei:ref
+                                    target="https://archiviodigitale-icar.cultura.gov.it/it/185/ricerca/detail/7650"
+                                />
+                            </cei:archIdentifier>
+                            <cei:physicalDesc>
+                                <cei:dimensions>420 mm</cei:dimensions>
+                                <cei:dimensions>265 mm</cei:dimensions>
+                            </cei:physicalDesc>
+                        </cei:witnessOrig>
+                    </cei:chDesc>
+                </cei:body>
+            </cei:text>
+            <cei:text type="charter">
+                <cei:front/>
+                <cei:body>
+                    <cei:idno>ICAR UD 7651</cei:idno>
+                    <cei:chDesc>
+                        <cei:h1>1295 Giugno 26, Accademia della Colombaria (dono)</cei:h1>
+                        <cei:issued>
+                            <cei:date value="12950626">1295 Giugno 26</cei:date>
+                        </cei:issued>
+                        <cei:witnessOrig>
+                            <cei:figure>
+                                <cei:graphic
+                                    url="https://archiviodigitale-icar.cultura.gov.it/iiif/diplomatico-firenze@get@dfa778b2-af63-4cb5-91b7-7bff5e866f04@original/full/full/0/default.jpg"
+                                />
+                            </cei:figure>
+                            <cei:figure>
+                                <cei:graphic
+                                    url="https://archiviodigitale-icar.cultura.gov.it/iiif/diplomatico-firenze@get@9aa59520-1938-40e1-a042-443abf223940@original/full/full/0/default.jpg"
+                                />
+                            </cei:figure>
+                            <cei:figure>
+                                <cei:graphic
+                                    url="https://archiviodigitale-icar.cultura.gov.it/iiif/diplomatico-firenze@get@b7f7f6e6-ac17-4bfd-ac0b-be28dc7715bb@original/full/full/0/default.jpg"
+                                />
+                            </cei:figure>
+                            <cei:figure>
+                                <cei:graphic
+                                    url="https://archiviodigitale-icar.cultura.gov.it/iiif/diplomatico-firenze@get@b5ec694b-fbe8-478b-ab9c-c2de983d6757@original/full/full/0/default.jpg"
+                                />
+                            </cei:figure>
+                            <cei:archIdentifier>
+                                <cei:arch>ASFI</cei:arch>
+                                <cei:archFond>Diplomatico / Normali / Società
+                                    Colombaria</cei:archFond>
+                                <cei:idno>Numero di codice: 00024872</cei:idno>
+                                <cei:ref
+                                    target="https://archiviodigitale-icar.cultura.gov.it/it/185/ricerca/detail/7651"
+                                />
+                            </cei:archIdentifier>
+                            <cei:physicalDesc>
+                                <cei:dimensions>690 mm</cei:dimensions>
+                                <cei:dimensions>410 mm</cei:dimensions>
+                            </cei:physicalDesc>
+                        </cei:witnessOrig>
+                    </cei:chDesc>
+                </cei:body>
+            </cei:text>
+            <cei:text type="charter">
+                <cei:front/>
+                <cei:body>
+                    <cei:idno>ICAR UD 7652</cei:idno>
+                    <cei:chDesc>
+                        <cei:h1>1318 Settembre 7, Accademia della Colombaria (dono)</cei:h1>
+                        <cei:issued>
+                            <cei:date value="13180907">1318 Settembre 7</cei:date>
+                        </cei:issued>
+                        <cei:witnessOrig>
+                            <cei:figure>
+                                <cei:graphic
+                                    url="https://archiviodigitale-icar.cultura.gov.it/iiif/diplomatico-firenze@get@af7bb10d-754e-4449-b75e-65dea7978242@original/full/full/0/default.jpg"
+                                />
+                            </cei:figure>
+                            <cei:figure>
+                                <cei:graphic
+                                    url="https://archiviodigitale-icar.cultura.gov.it/iiif/diplomatico-firenze@get@950448cf-439d-4257-af13-ac24b8a34a96@original/full/full/0/default.jpg"
+                                />
+                            </cei:figure>
+                            <cei:figure>
+                                <cei:graphic
+                                    url="https://archiviodigitale-icar.cultura.gov.it/iiif/diplomatico-firenze@get@388b77b8-c9cb-4bc1-91fb-5ac1b674c6f8@original/full/full/0/default.jpg"
+                                />
+                            </cei:figure>
+                            <cei:figure>
+                                <cei:graphic
+                                    url="https://archiviodigitale-icar.cultura.gov.it/iiif/diplomatico-firenze@get@7c9c6f79-1c4f-45fd-a8c8-efb1eeca5136@original/full/full/0/default.jpg"
+                                />
+                            </cei:figure>
+                            <cei:archIdentifier>
+                                <cei:arch>ASFI</cei:arch>
+                                <cei:archFond>Diplomatico / Normali / Società
+                                    Colombaria</cei:archFond>
+                                <cei:idno>Numero di codice: 00034566</cei:idno>
+                                <cei:ref
+                                    target="https://archiviodigitale-icar.cultura.gov.it/it/185/ricerca/detail/7652"
+                                />
+                            </cei:archIdentifier>
+                            <cei:physicalDesc>
+                                <cei:dimensions>580 mm</cei:dimensions>
+                                <cei:dimensions>385 mm</cei:dimensions>
+                            </cei:physicalDesc>
+                        </cei:witnessOrig>
+                    </cei:chDesc>
+                </cei:body>
+            </cei:text>
+            <cei:text type="charter">
+                <cei:front/>
+                <cei:body>
+                    <cei:idno>ICAR UD 7653</cei:idno>
+                    <cei:chDesc>
+                        <cei:h1>1343 Aprile 4, Accademia della Colombaria (dono)</cei:h1>
+                        <cei:issued>
+                            <cei:date value="13430404">1343 Aprile 4</cei:date>
+                        </cei:issued>
+                        <cei:witnessOrig>
+                            <cei:figure>
+                                <cei:graphic
+                                    url="https://archiviodigitale-icar.cultura.gov.it/iiif/diplomatico-firenze@get@c39ca724-b213-40e7-8bd0-cbee6db13e63@original/full/full/0/default.jpg"
+                                />
+                            </cei:figure>
+                            <cei:figure>
+                                <cei:graphic
+                                    url="https://archiviodigitale-icar.cultura.gov.it/iiif/diplomatico-firenze@get@5c75e435-ecde-4ac6-99bf-fa2e7425235f@original/full/full/0/default.jpg"
+                                />
+                            </cei:figure>
+                            <cei:archIdentifier>
+                                <cei:arch>ASFI</cei:arch>
+                                <cei:archFond>Diplomatico / Normali / Società
+                                    Colombaria</cei:archFond>
+                                <cei:idno>Numero di codice: 00075727</cei:idno>
+                                <cei:ref
+                                    target="https://archiviodigitale-icar.cultura.gov.it/it/185/ricerca/detail/7653"
+                                />
+                            </cei:archIdentifier>
+                            <cei:physicalDesc>
+                                <cei:dimensions>760 mm</cei:dimensions>
+                                <cei:dimensions>595 mm</cei:dimensions>
+                            </cei:physicalDesc>
+                        </cei:witnessOrig>
+                    </cei:chDesc>
+                </cei:body>
+            </cei:text>
+            <cei:text type="charter">
+                <cei:front/>
+                <cei:body>
+                    <cei:idno>ICAR UD 7654</cei:idno>
+                    <cei:chDesc>
+                        <cei:h1>1396 Novembre 17, Accademia della Colombaria (dono)</cei:h1>
+                        <cei:issued>
+                            <cei:date value="13961117">1396 Novembre 17</cei:date>
+                        </cei:issued>
+                        <cei:witnessOrig>
+                            <cei:figure>
+                                <cei:graphic
+                                    url="https://archiviodigitale-icar.cultura.gov.it/iiif/diplomatico-firenze@get@01016902-e407-440a-a2a3-fee60d6fe7c7@original/full/full/0/default.jpg"
+                                />
+                            </cei:figure>
+                            <cei:figure>
+                                <cei:graphic
+                                    url="https://archiviodigitale-icar.cultura.gov.it/iiif/diplomatico-firenze@get@a7aa2857-3de1-4b9b-affc-caf773690698@original/full/full/0/default.jpg"
+                                />
+                            </cei:figure>
+                            <cei:figure>
+                                <cei:graphic
+                                    url="https://archiviodigitale-icar.cultura.gov.it/iiif/diplomatico-firenze@get@2fc7c98b-36bf-4810-9d8b-be2e0ce2b1e7@original/full/full/0/default.jpg"
+                                />
+                            </cei:figure>
+                            <cei:figure>
+                                <cei:graphic
+                                    url="https://archiviodigitale-icar.cultura.gov.it/iiif/diplomatico-firenze@get@3f27645b-1936-493b-a040-b0d63baf2d16@original/full/full/0/default.jpg"
+                                />
+                            </cei:figure>
+                            <cei:archIdentifier>
+                                <cei:arch>ASFI</cei:arch>
+                                <cei:archFond>Diplomatico / Normali / Società
+                                    Colombaria</cei:archFond>
+                                <cei:idno>Numero di codice: 00083902</cei:idno>
+                                <cei:ref
+                                    target="https://archiviodigitale-icar.cultura.gov.it/it/185/ricerca/detail/7654"
+                                />
+                            </cei:archIdentifier>
+                            <cei:physicalDesc>
+                                <cei:dimensions>590 mm</cei:dimensions>
+                                <cei:dimensions>240 mm</cei:dimensions>
+                            </cei:physicalDesc>
+                        </cei:witnessOrig>
+                    </cei:chDesc>
+                </cei:body>
+            </cei:text>
+            <cei:text type="charter">
+                <cei:front/>
+                <cei:body>
+                    <cei:idno>ICAR UD 7655</cei:idno>
+                    <cei:chDesc>
+                        <cei:h1>1398 Dicembre 7, Accademia della Colombaria (dono)</cei:h1>
+                        <cei:issued>
+                            <cei:date value="13981207">1398 Dicembre 7</cei:date>
+                        </cei:issued>
+                        <cei:witnessOrig>
+                            <cei:figure>
+                                <cei:graphic
+                                    url="https://archiviodigitale-icar.cultura.gov.it/iiif/diplomatico-firenze@get@2ff1a4cc-0856-4ffe-9cd4-86b53fc7e7d9@original/full/full/0/default.jpg"
+                                />
+                            </cei:figure>
+                            <cei:figure>
+                                <cei:graphic
+                                    url="https://archiviodigitale-icar.cultura.gov.it/iiif/diplomatico-firenze@get@ea46472a-cdbf-4794-bac3-c1f82f7f8180@original/full/full/0/default.jpg"
+                                />
+                            </cei:figure>
+                            <cei:archIdentifier>
+                                <cei:arch>ASFI</cei:arch>
+                                <cei:archFond>Diplomatico / Normali / Società
+                                    Colombaria</cei:archFond>
+                                <cei:idno>Numero di codice: 00084779</cei:idno>
+                                <cei:ref
+                                    target="https://archiviodigitale-icar.cultura.gov.it/it/185/ricerca/detail/7655"
+                                />
+                            </cei:archIdentifier>
+                            <cei:physicalDesc>
+                                <cei:dimensions>420 mm</cei:dimensions>
+                                <cei:dimensions>270 mm</cei:dimensions>
+                            </cei:physicalDesc>
+                        </cei:witnessOrig>
+                    </cei:chDesc>
+                </cei:body>
+            </cei:text>
+        </cei:group>
+    </cei:text>
+</cei:cei>

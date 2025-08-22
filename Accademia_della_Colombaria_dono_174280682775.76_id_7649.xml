@@ -1,0 +1,590 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<icar-import:icar-import xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:eac-cpf="urn:isbn:1-931666-33-4" xmlns:ead="http://ead3.archivists.org/schema/" xmlns:scons="http://www.san.beniculturali.it/scons2" xmlns:icar-import="http://www.san.beniculturali.it/icar-import" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:mets="http://www.loc.gov/METS/" xmlns:metsrights="http://cosimo.stanford.edu/sdr/metsrights" xmlns:mix="http://www.loc.gov/mix/v20" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.san.beniculturali.it/icar-import http://www.san.beniculturali.it/tracciato/icar-import.xsd">
+  <icar-import:header>
+    <icar-import:systemId>ICAR-SAN</icar-import:systemId>
+    <icar-import:systemTitle>Istituto Centrale per gli Archivi - Sistema Archivistico Nazionale</icar-import:systemTitle>
+    <icar-import:contact>
+      <icar-import:mail>prova@mail.it</icar-import:mail>
+    </icar-import:contact>
+    <icar-import:contact>
+      <icar-import:mail>prova2@mail.it</icar-import:mail>
+    </icar-import:contact>
+    <icar-import:event eventType="creation" eventDate="2025-03-24T10:01:01">
+      <icar-import:agent agentType="software">Software</icar-import:agent>
+    </icar-import:event>
+    <icar-import:fileDesc>
+      <icar-import:title>Titolo di prova</icar-import:title>
+      <icar-import:date>2025-03-24T10:01:01</icar-import:date>
+    </icar-import:fileDesc>
+  </icar-import:header>
+  <icar-import:listRecords>
+    <icar-import:record>
+      <icar-import:recordHeader action="insert" type="ead3" groupEad="multiple">
+        <icar-import:id>metafad:ca-001</icar-import:id>
+        <icar-import:lastUpdate>2025-03-24T10:01:01</icar-import:lastUpdate>
+      </icar-import:recordHeader>
+      <icar-import:recordBody>
+        <ead:ead xmlns="http://ead3.archivists.org/schema/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://ead3.archivists.org/schema/ http://www.san.beniculturali.it/tracciato/ead3.xsd">
+          <ead:control repositoryencoding="iso15511" countryencoding="iso3166-1" dateencoding="iso8601" scriptencoding="iso15924" langencoding="iso639-2b" relatedencoding="ISAD(G)">
+            <ead:recordid>ICAR CA 7649</ead:recordid>
+            <ead:filedesc>
+              <ead:titlestmt>
+                <ead:titleproper>Accademia della Colombaria (dono)</ead:titleproper>
+              </ead:titlestmt>
+            </ead:filedesc>
+            <ead:maintenancestatus value="derived"/>
+            <ead:maintenanceagency>
+              <ead:agencyname>ICAR</ead:agencyname>
+            </ead:maintenanceagency>
+            <ead:languagedeclaration>
+              <ead:language langcode="ita"/>
+              <ead:script scriptcode="Ital"/>
+            </ead:languagedeclaration>
+            <ead:conventiondeclaration>
+              <ead:citation>ISAD (G)</ead:citation>
+            </ead:conventiondeclaration>
+            <ead:maintenancehistory>
+              <ead:maintenanceevent>
+                <ead:eventtype value="created"/>
+                <ead:eventdatetime>2025-03-24T10:01:01</ead:eventdatetime>
+                <ead:agenttype value="machine"/>
+                <ead:agent>Software</ead:agent>
+              </ead:maintenanceevent>
+            </ead:maintenancehistory>
+          </ead:control>
+          <ead:archdesc level="fonds">
+            <ead:did>
+              <ead:unitid localtype="metaFAD" identifier="ICAR CA 7649">ICAR CA 7649</ead:unitid>
+              <ead:unittitle localtype="denominazione" lang="ita">Accademia della Colombaria (dono)</ead:unittitle>
+              <ead:unitdatestructured>
+                <ead:daterange>
+                  <ead:fromdate standarddate="1264-01-01">1264-01-01</ead:fromdate>
+                  <ead:todate standarddate="1726-12-31">1726-12-31</ead:todate>
+                </ead:daterange>
+              </ead:unitdatestructured>
+              <ead:physdescstructured physdescstructuredtype="spaceoccupied" coverage="whole">
+                <ead:quantity>28 Unità risultanti dai Tomi di spoglio, 6 Pergamene digitalizzate (1264 - 1398)</ead:quantity>
+                <unittype/>
+              </ead:physdescstructured>
+              <ead:physdescstructured physdescstructuredtype="materialtype" coverage="whole">
+                <ead:quantity>28</ead:quantity>
+                <ead:unittype>Unità risultanti dai Tomi di spoglio</ead:unittype>
+              </ead:physdescstructured>
+              <ead:physdescstructured physdescstructuredtype="materialtype" coverage="whole">
+                <ead:quantity>6</ead:quantity>
+                <ead:unittype>Pergamene digitalizzate</ead:unittype>
+                <ead:physfacet><![CDATA[Anni: 1264 - 1398]]></ead:physfacet>
+              </ead:physdescstructured>
+              <ead:repository>
+                <ead:corpname identifier="ICAR ENT 7646">
+                  <ead:part>Archivio di Stato di Firenze</ead:part>
+                </ead:corpname>
+              </ead:repository>
+              <ead:origination>
+                <ead:corpname identifier="ICAR_ENT_7648">
+                  <ead:part>Firenze, Accademia della Colombaria</ead:part>
+                </ead:corpname>
+              </ead:origination>
+            </ead:did>
+            <ead:scopecontent>
+              <ead:p><![CDATA[Le pergamene non hanno relazione con l'attività dell'Accademia, e sembrano piuttosto costituire una raccolta. Per informazioni storiche sull'Accademia e sul suo archivio cfr., F.Adorno, Accademie e Istituzioni culturali a Firenze, Firenze, Olschki, 1983 (Acarte Tosc. di Scienze e Lettere "la Colombaria", Studi LXV), pp. 53-65.]]></ead:p>
+            </ead:scopecontent>
+            <ead:custodhist>
+              <ead:p><![CDATA[Versamenti || 1885, effettuato da Accademia della Colombaria, unità 28 (1264 - 1726) ; segnatura fonte Soprintendenza generale agli archivi toscani e Archivio di Stato di Firenze, n. 222 / 638. Testo verbale: Titolo del fascicolo: " Società Colombaria Fiorentina dona un libro di spese de' Camarlinghi della Repubblica de 1303, e un libro di Entrate e Uscite della Compagnia di Orsanmichele de 1350. Ricevono in cambio le pubblicazioni della Soprintendenza e altri libri". / All'interno: / [lettera della Società al soprintendente C. Guasti] / "26 maggio 1884 / Onor. Sig. Soprintendente / Mi è grato partecipare alla SV. Onorevolissima che la Società Colombaria Fiorentina, nell'adunanza tenuta dagli Urbani l' 11 aprile u.s. deliberava [...] di donare a codesto R. Archivio di Stato il codicetto posseduto da essa e avente per titolo = Libro di spese de' Camarlinghi di Firenze (1302 - 1303) = deliberava, inoltre, di aggiungervi altro codicetto (libro di Entrate e Uscite della Compagnia di Orsanmichele, del mese di febbraio 1350) e n.° 29 pergamene [...]". / / "Pergamene donate dalla Società Colombaria nell'anno 1885". / Spoglio. Le pergamene, numerate da 1 a 28, sono disposte in ordine cornologico dal 1264 al 1726 e dotate di regesto completo. / L'autorizzazione ministeriale ad effettuare il cambio è del 20 giugno 1884 e del 3 dicembre 1885..]]></ead:p>
+            </ead:custodhist>
+            <ead:relatedmaterial>
+              <ead:archref>
+                <ead:ref target="Strumento-606" href="154423">In questo Tomo si comprendo gli Spogli delle seguenti Provenienze. n. 15 Dono Società Colombaria 1264-1726.</ead:ref>
+              </ead:archref>
+            </ead:relatedmaterial>
+            <ead:processinfo localtype="compilatori">
+              <ead:processinfo localtype="compilatore">
+                <ead:p>
+                  <ead:persname>
+                    <ead:part localtype="compilatore">SSI</ead:part>
+                  </ead:persname>
+                  <ead:date localtype="dataIntervento">2021/01/14</ead:date>
+                </ead:p>
+              </ead:processinfo>
+            </ead:processinfo>
+            <ead:dsc>
+              <ead:c level="item">
+                <ead:did>
+                  <ead:unitid localtype="metaFAD" identifier="ICAR UD 7650">ICAR UD 7650</ead:unitid>
+                  <ead:unitid label="segnaturaAntica">1264 Dicembre 2. Società Colombaria (Normali)</ead:unitid>
+                  <ead:unitid label="barcode">00017097</ead:unitid>
+                  <ead:unitid label="numeroOrdinamento">12641202</ead:unitid>
+                  <ead:unittitle localtype="titoloAttribuito">1264 Dicembre 2, Accademia della Colombaria (dono)</ead:unittitle>
+                  <ead:unitdatestructured>
+                    <ead:dateset>
+                      <ead:datesingle standarddate="1264-12-02">1264-12-02</ead:datesingle>
+                      <ead:datesingle localtype="noteAllaData">1264 Dicembre 2</ead:datesingle>
+                    </ead:dateset>
+                  </ead:unitdatestructured>
+                  <ead:physdescstructured physdescstructuredtype="otherphysdescstructuredtype" coverage="whole">
+                    <quantity/>
+                    <unittype/>
+                    <ead:dimensions localtype="altezza">420 mm</ead:dimensions>
+                    <ead:dimensions localtype="larghezza">265 mm</ead:dimensions>
+                  </ead:physdescstructured>
+                  <ead:daoset coverage="whole">
+                    <ead:dao identifier="16965d35-568b-41ea-b1da-4ec9038dc6f1" daotype="derived" coverage="whole" href="https://metafad-icar.cultura.gov.it/rest/dam/diplomatico-firenze/get/16965d35-568b-41ea-b1da-4ec9038dc6f1/original" linkrole="image/jpg" label="R 1.1"/>
+                    <ead:dao identifier="050a588a-296f-4369-8ce8-b6f63ce03c74" daotype="derived" coverage="whole" href="https://metafad-icar.cultura.gov.it/rest/dam/diplomatico-firenze/get/050a588a-296f-4369-8ce8-b6f63ce03c74/original" linkrole="image/jpg" label="V 1.1"/>
+                    <ead:dao identifier="6373df7f-b32e-4831-9128-3410c8d57ac4" daotype="derived" coverage="whole" href="https://metafad-icar.cultura.gov.it/rest/dam/diplomatico-firenze/get/6373df7f-b32e-4831-9128-3410c8d57ac4/original" linkrole="image/jpg" label="P 1.1"/>
+                    <ead:dao identifier="ac8b0d5f-b346-43eb-9bf4-ea73c9e04427" daotype="derived" coverage="whole" href="https://metafad-icar.cultura.gov.it/rest/dam/diplomatico-firenze/get/ac8b0d5f-b346-43eb-9bf4-ea73c9e04427/original" linkrole="image/jpg" label="P 1.2"/>
+                  </ead:daoset>
+                </ead:did>
+                <ead:relations>
+                  <ead:relation relationtype="resourcerelation">
+                    <ead:relationentry localtype="complArchSup">ICAR CA 7649</ead:relationentry>
+                  </ead:relation>
+                </ead:relations>
+                <ead:controlaccess>
+                  <ead:genreform>
+                    <ead:part>Pergamena</ead:part>
+                  </ead:genreform>
+                  <ead:geogname localtype="actum">
+                    <ead:part>nella chiesa di S. Domenico, Lucca</ead:part>
+                  </ead:geogname>
+                  <ead:persname localtype="voceIndice">
+                    <ead:part>Jacobus Perfectucci da Luca</ead:part>
+                  </ead:persname>
+                  <ead:persname relator="Notaio">
+                    <ead:part localtype="persona">Jacobus Perfectucci da Luca</ead:part>
+                  </ead:persname>
+                </ead:controlaccess>
+                <ead:relatedmaterial>
+                  <ead:archref>
+                    <ead:ref href="154408">Regesto in tomo 93 carta 248 R</ead:ref>
+                  </ead:archref>
+                </ead:relatedmaterial>
+                <ead:processinfo localtype="compilatori">
+                  <ead:processinfo localtype="compilatore">
+                    <ead:p>
+                      <ead:persname>
+                        <ead:part localtype="compilatore">Lucia</ead:part>
+                        <ead:part localtype="tipoIntervento">inserimento</ead:part>
+                      </ead:persname>
+                      <ead:date localtype="dataIntervento">10/05/2000</ead:date>
+                    </ead:p>
+                  </ead:processinfo>
+                </ead:processinfo>
+              </ead:c>
+              <ead:c level="item">
+                <ead:did>
+                  <ead:unitid localtype="metaFAD" identifier="ICAR UD 7651">ICAR UD 7651</ead:unitid>
+                  <ead:unitid label="segnaturaAntica">1295 Giugno 26. Società Colombaria (Normali)</ead:unitid>
+                  <ead:unitid label="barcode">00024872</ead:unitid>
+                  <ead:unitid label="numeroOrdinamento">12950626</ead:unitid>
+                  <ead:unittitle localtype="titoloAttribuito">1295 Giugno 26, Accademia della Colombaria (dono)</ead:unittitle>
+                  <ead:unitdatestructured>
+                    <ead:dateset>
+                      <ead:datesingle standarddate="1295-06-26">1295-06-26</ead:datesingle>
+                      <ead:datesingle localtype="noteAllaData">1295 Giugno 26</ead:datesingle>
+                    </ead:dateset>
+                  </ead:unitdatestructured>
+                  <ead:physdescstructured physdescstructuredtype="otherphysdescstructuredtype" coverage="whole">
+                    <quantity/>
+                    <unittype/>
+                    <ead:dimensions localtype="altezza">690 mm</ead:dimensions>
+                    <ead:dimensions localtype="larghezza">410 mm</ead:dimensions>
+                  </ead:physdescstructured>
+                  <ead:daoset coverage="whole">
+                    <ead:dao identifier="dfa778b2-af63-4cb5-91b7-7bff5e866f04" daotype="derived" coverage="whole" href="https://metafad-icar.cultura.gov.it/rest/dam/diplomatico-firenze/get/dfa778b2-af63-4cb5-91b7-7bff5e866f04/original" linkrole="image/jpg" label="R 1.1"/>
+                    <ead:dao identifier="9aa59520-1938-40e1-a042-443abf223940" daotype="derived" coverage="whole" href="https://metafad-icar.cultura.gov.it/rest/dam/diplomatico-firenze/get/9aa59520-1938-40e1-a042-443abf223940/original" linkrole="image/jpg" label="V 1.1"/>
+                    <ead:dao identifier="b7f7f6e6-ac17-4bfd-ac0b-be28dc7715bb" daotype="derived" coverage="whole" href="https://metafad-icar.cultura.gov.it/rest/dam/diplomatico-firenze/get/b7f7f6e6-ac17-4bfd-ac0b-be28dc7715bb/original" linkrole="image/jpg" label="R 1.2"/>
+                    <ead:dao identifier="b5ec694b-fbe8-478b-ab9c-c2de983d6757" daotype="derived" coverage="whole" href="https://metafad-icar.cultura.gov.it/rest/dam/diplomatico-firenze/get/b5ec694b-fbe8-478b-ab9c-c2de983d6757/original" linkrole="image/jpg" label="V 1.2"/>
+                  </ead:daoset>
+                </ead:did>
+                <ead:relations>
+                  <ead:relation relationtype="resourcerelation">
+                    <ead:relationentry localtype="complArchSup">ICAR CA 7649</ead:relationentry>
+                  </ead:relation>
+                </ead:relations>
+                <ead:controlaccess>
+                  <ead:genreform>
+                    <ead:part>Pergamena</ead:part>
+                  </ead:genreform>
+                  <ead:geogname localtype="actum">
+                    <ead:part>Firenze</ead:part>
+                  </ead:geogname>
+                  <ead:persname localtype="voceIndice">
+                    <ead:part>Manno di Talento di Riccomanno di Sesto</ead:part>
+                  </ead:persname>
+                  <ead:persname relator="Notaio">
+                    <ead:part localtype="persona">Manno di Talento di Riccomanno di Sesto</ead:part>
+                  </ead:persname>
+                </ead:controlaccess>
+                <ead:relatedmaterial>
+                  <ead:archref>
+                    <ead:ref href="154408">Regesto in tomo 93 carta 248 R</ead:ref>
+                  </ead:archref>
+                </ead:relatedmaterial>
+                <ead:processinfo localtype="compilatori">
+                  <ead:processinfo localtype="compilatore">
+                    <ead:p>
+                      <ead:persname>
+                        <ead:part localtype="compilatore">Lucia</ead:part>
+                        <ead:part localtype="tipoIntervento">inserimento</ead:part>
+                      </ead:persname>
+                      <ead:date localtype="dataIntervento">05/10/2000</ead:date>
+                    </ead:p>
+                  </ead:processinfo>
+                </ead:processinfo>
+              </ead:c>
+              <ead:c level="item">
+                <ead:did>
+                  <ead:unitid localtype="metaFAD" identifier="ICAR UD 7652">ICAR UD 7652</ead:unitid>
+                  <ead:unitid label="segnaturaAntica">1318 Settembre 7. Società Colombaria (Normali)</ead:unitid>
+                  <ead:unitid label="barcode">00034566</ead:unitid>
+                  <ead:unitid label="numeroOrdinamento">13180907</ead:unitid>
+                  <ead:unittitle localtype="titoloAttribuito">1318 Settembre 7, Accademia della Colombaria (dono)</ead:unittitle>
+                  <ead:unitdatestructured>
+                    <ead:dateset>
+                      <ead:datesingle standarddate="1318-09-07">1318-09-07</ead:datesingle>
+                      <ead:datesingle localtype="noteAllaData">1318 Settembre 7</ead:datesingle>
+                    </ead:dateset>
+                  </ead:unitdatestructured>
+                  <ead:physdescstructured physdescstructuredtype="otherphysdescstructuredtype" coverage="whole">
+                    <quantity/>
+                    <unittype/>
+                    <ead:dimensions localtype="altezza">580 mm</ead:dimensions>
+                    <ead:dimensions localtype="larghezza">385 mm</ead:dimensions>
+                  </ead:physdescstructured>
+                  <ead:daoset coverage="whole">
+                    <ead:dao identifier="af7bb10d-754e-4449-b75e-65dea7978242" daotype="derived" coverage="whole" href="https://metafad-icar.cultura.gov.it/rest/dam/diplomatico-firenze/get/af7bb10d-754e-4449-b75e-65dea7978242/original" linkrole="image/jpg" label="R 1.1"/>
+                    <ead:dao identifier="950448cf-439d-4257-af13-ac24b8a34a96" daotype="derived" coverage="whole" href="https://metafad-icar.cultura.gov.it/rest/dam/diplomatico-firenze/get/950448cf-439d-4257-af13-ac24b8a34a96/original" linkrole="image/jpg" label="V 1.1"/>
+                    <ead:dao identifier="388b77b8-c9cb-4bc1-91fb-5ac1b674c6f8" daotype="derived" coverage="whole" href="https://metafad-icar.cultura.gov.it/rest/dam/diplomatico-firenze/get/388b77b8-c9cb-4bc1-91fb-5ac1b674c6f8/original" linkrole="image/jpg" label="R 1.2"/>
+                    <ead:dao identifier="7c9c6f79-1c4f-45fd-a8c8-efb1eeca5136" daotype="derived" coverage="whole" href="https://metafad-icar.cultura.gov.it/rest/dam/diplomatico-firenze/get/7c9c6f79-1c4f-45fd-a8c8-efb1eeca5136/original" linkrole="image/jpg" label="V 1.2"/>
+                  </ead:daoset>
+                </ead:did>
+                <ead:relations>
+                  <ead:relation relationtype="resourcerelation">
+                    <ead:relationentry localtype="complArchSup">ICAR CA 7649</ead:relationentry>
+                  </ead:relation>
+                </ead:relations>
+                <ead:controlaccess>
+                  <ead:genreform>
+                    <ead:part>Pergamena</ead:part>
+                  </ead:genreform>
+                  <ead:geogname localtype="actum">
+                    <ead:part>Avignone; nelle case degli eredi di Perotto di Guadagno in cui abita il vescovo, Firenze</ead:part>
+                  </ead:geogname>
+                  <ead:persname localtype="voceIndice">
+                    <ead:part>Giovanni XXII</ead:part>
+                  </ead:persname>
+                  <ead:persname localtype="voceIndice">
+                    <ead:part>Benedetto di maestro Martino</ead:part>
+                  </ead:persname>
+                  <ead:persname localtype="voceIndice">
+                    <ead:part>Niccolò di Filippo da Lucca</ead:part>
+                  </ead:persname>
+                  <ead:persname relator="Autore">
+                    <ead:part localtype="persona">Giovanni XXII</ead:part>
+                  </ead:persname>
+                  <ead:persname relator="Notaio">
+                    <ead:part localtype="persona">Benedetto di maestro Martino</ead:part>
+                  </ead:persname>
+                  <ead:persname relator="Notaio">
+                    <ead:part localtype="persona">Niccolò di Filippo da Lucca</ead:part>
+                  </ead:persname>
+                </ead:controlaccess>
+                <ead:relatedmaterial>
+                  <ead:archref>
+                    <ead:ref href="154408">Regesto in tomo 93 carta 248 V</ead:ref>
+                  </ead:archref>
+                </ead:relatedmaterial>
+                <ead:processinfo localtype="compilatori">
+                  <ead:processinfo localtype="compilatore">
+                    <ead:p>
+                      <ead:persname>
+                        <ead:part localtype="compilatore">Lucia</ead:part>
+                        <ead:part localtype="tipoIntervento">inserimento</ead:part>
+                      </ead:persname>
+                      <ead:date localtype="dataIntervento">21/03/2001</ead:date>
+                    </ead:p>
+                  </ead:processinfo>
+                </ead:processinfo>
+              </ead:c>
+              <ead:c level="item">
+                <ead:did>
+                  <ead:unitid localtype="metaFAD" identifier="ICAR UD 7653">ICAR UD 7653</ead:unitid>
+                  <ead:unitid label="segnaturaAntica">1343 Aprile 4. colombaria (Lunghe)</ead:unitid>
+                  <ead:unitid label="barcode">00075727</ead:unitid>
+                  <ead:unitid label="numeroOrdinamento">13430404</ead:unitid>
+                  <ead:unittitle localtype="titoloAttribuito">1343 Aprile 4, Accademia della Colombaria (dono)</ead:unittitle>
+                  <ead:unitdatestructured>
+                    <ead:dateset>
+                      <ead:datesingle standarddate="1343-04-04">1343-04-04</ead:datesingle>
+                      <ead:datesingle localtype="noteAllaData">1343 Aprile 4</ead:datesingle>
+                    </ead:dateset>
+                  </ead:unitdatestructured>
+                  <ead:physdescstructured physdescstructuredtype="otherphysdescstructuredtype" coverage="whole">
+                    <quantity/>
+                    <unittype/>
+                    <ead:dimensions localtype="altezza">760 mm</ead:dimensions>
+                    <ead:dimensions localtype="larghezza">595 mm</ead:dimensions>
+                  </ead:physdescstructured>
+                  <ead:daoset coverage="whole">
+                    <ead:dao identifier="c39ca724-b213-40e7-8bd0-cbee6db13e63" daotype="derived" coverage="whole" href="https://metafad-icar.cultura.gov.it/rest/dam/diplomatico-firenze/get/c39ca724-b213-40e7-8bd0-cbee6db13e63/original" linkrole="image/jpg" label="R 1.1"/>
+                    <ead:dao identifier="5c75e435-ecde-4ac6-99bf-fa2e7425235f" daotype="derived" coverage="whole" href="https://metafad-icar.cultura.gov.it/rest/dam/diplomatico-firenze/get/5c75e435-ecde-4ac6-99bf-fa2e7425235f/original" linkrole="image/jpg" label="V 1.1"/>
+                  </ead:daoset>
+                </ead:did>
+                <ead:relations>
+                  <ead:relation relationtype="resourcerelation">
+                    <ead:relationentry localtype="complArchSup">ICAR CA 7649</ead:relationentry>
+                  </ead:relation>
+                </ead:relations>
+                <ead:controlaccess>
+                  <ead:genreform>
+                    <ead:part>Pergamena</ead:part>
+                  </ead:genreform>
+                  <ead:geogname localtype="actum">
+                    <ead:part>Avignone; Firenze</ead:part>
+                  </ead:geogname>
+                </ead:controlaccess>
+                <ead:relatedmaterial>
+                  <ead:archref>
+                    <ead:ref href="154408">Regesto in tomo 93 carta 248 V</ead:ref>
+                  </ead:archref>
+                </ead:relatedmaterial>
+                <ead:processinfo localtype="compilatori">
+                  <ead:processinfo localtype="compilatore">
+                    <ead:p>
+                      <ead:persname>
+                        <ead:part localtype="compilatore">Lucia</ead:part>
+                        <ead:part localtype="tipoIntervento">inserimento</ead:part>
+                      </ead:persname>
+                      <ead:date localtype="dataIntervento">21/06/2002</ead:date>
+                    </ead:p>
+                  </ead:processinfo>
+                </ead:processinfo>
+              </ead:c>
+              <ead:c level="item">
+                <ead:did>
+                  <ead:unitid localtype="metaFAD" identifier="ICAR UD 7654">ICAR UD 7654</ead:unitid>
+                  <ead:unitid label="segnaturaAntica">1396 Novembre 17. Società Colombaria (Normali)</ead:unitid>
+                  <ead:unitid label="barcode">00083902</ead:unitid>
+                  <ead:unitid label="numeroOrdinamento">13961117</ead:unitid>
+                  <ead:unittitle localtype="titoloAttribuito">1396 Novembre 17, Accademia della Colombaria (dono)</ead:unittitle>
+                  <ead:unitdatestructured>
+                    <ead:dateset>
+                      <ead:datesingle standarddate="1396-11-17">1396-11-17</ead:datesingle>
+                      <ead:datesingle localtype="noteAllaData">1396 Novembre 17</ead:datesingle>
+                    </ead:dateset>
+                  </ead:unitdatestructured>
+                  <ead:physdescstructured physdescstructuredtype="otherphysdescstructuredtype" coverage="whole">
+                    <quantity/>
+                    <unittype/>
+                    <ead:dimensions localtype="altezza">590 mm</ead:dimensions>
+                    <ead:dimensions localtype="larghezza">240 mm</ead:dimensions>
+                  </ead:physdescstructured>
+                  <ead:daoset coverage="whole">
+                    <ead:dao identifier="01016902-e407-440a-a2a3-fee60d6fe7c7" daotype="derived" coverage="whole" href="https://metafad-icar.cultura.gov.it/rest/dam/diplomatico-firenze/get/01016902-e407-440a-a2a3-fee60d6fe7c7/original" linkrole="image/jpg" label="R 1.1"/>
+                    <ead:dao identifier="a7aa2857-3de1-4b9b-affc-caf773690698" daotype="derived" coverage="whole" href="https://metafad-icar.cultura.gov.it/rest/dam/diplomatico-firenze/get/a7aa2857-3de1-4b9b-affc-caf773690698/original" linkrole="image/jpg" label="V 1.1"/>
+                    <ead:dao identifier="2fc7c98b-36bf-4810-9d8b-be2e0ce2b1e7" daotype="derived" coverage="whole" href="https://metafad-icar.cultura.gov.it/rest/dam/diplomatico-firenze/get/2fc7c98b-36bf-4810-9d8b-be2e0ce2b1e7/original" linkrole="image/jpg" label="R 1.2"/>
+                    <ead:dao identifier="3f27645b-1936-493b-a040-b0d63baf2d16" daotype="derived" coverage="whole" href="https://metafad-icar.cultura.gov.it/rest/dam/diplomatico-firenze/get/3f27645b-1936-493b-a040-b0d63baf2d16/original" linkrole="image/jpg" label="V 1.2"/>
+                  </ead:daoset>
+                </ead:did>
+                <ead:relations>
+                  <ead:relation relationtype="resourcerelation">
+                    <ead:relationentry localtype="complArchSup">ICAR CA 7649</ead:relationentry>
+                  </ead:relation>
+                </ead:relations>
+                <ead:controlaccess>
+                  <ead:genreform>
+                    <ead:part>Pergamena</ead:part>
+                  </ead:genreform>
+                  <ead:geogname localtype="actum">
+                    <ead:part>nella casa di ser Schiatta di ser Michele di Meo, in porta Capo di Ponte, in Prato</ead:part>
+                  </ead:geogname>
+                  <ead:persname localtype="voceIndice">
+                    <ead:part>Amelio del fu Lapo Migliorati da Prato</ead:part>
+                  </ead:persname>
+                  <ead:persname relator="Notaio">
+                    <ead:part localtype="persona">Amelio del fu Lapo Migliorati da Prato</ead:part>
+                  </ead:persname>
+                </ead:controlaccess>
+                <ead:relatedmaterial>
+                  <ead:archref>
+                    <ead:ref href="154408">Regesto in tomo 93 carta 249 R</ead:ref>
+                  </ead:archref>
+                </ead:relatedmaterial>
+                <ead:processinfo localtype="compilatori">
+                  <ead:processinfo localtype="compilatore">
+                    <ead:p>
+                      <ead:persname>
+                        <ead:part localtype="compilatore">Lucia</ead:part>
+                        <ead:part localtype="tipoIntervento">inserimento</ead:part>
+                      </ead:persname>
+                      <ead:date localtype="dataIntervento">22/07/2002</ead:date>
+                    </ead:p>
+                  </ead:processinfo>
+                </ead:processinfo>
+              </ead:c>
+              <ead:c level="item">
+                <ead:did>
+                  <ead:unitid localtype="metaFAD" identifier="ICAR UD 7655">ICAR UD 7655</ead:unitid>
+                  <ead:unitid label="segnaturaAntica">1398 Dicembre 7. Colombaria (Normali)</ead:unitid>
+                  <ead:unitid label="barcode">00084779</ead:unitid>
+                  <ead:unitid label="numeroOrdinamento">13981207</ead:unitid>
+                  <ead:unittitle localtype="titoloAttribuito">1398 Dicembre 7, Accademia della Colombaria (dono)</ead:unittitle>
+                  <ead:unitdatestructured>
+                    <ead:dateset>
+                      <ead:datesingle standarddate="1398-12-07">1398-12-07</ead:datesingle>
+                      <ead:datesingle localtype="noteAllaData">1398 Dicembre 7</ead:datesingle>
+                    </ead:dateset>
+                  </ead:unitdatestructured>
+                  <ead:physdescstructured physdescstructuredtype="otherphysdescstructuredtype" coverage="whole">
+                    <quantity/>
+                    <unittype/>
+                    <ead:dimensions localtype="altezza">420 mm</ead:dimensions>
+                    <ead:dimensions localtype="larghezza">270 mm</ead:dimensions>
+                  </ead:physdescstructured>
+                  <ead:daoset coverage="whole">
+                    <ead:dao identifier="2ff1a4cc-0856-4ffe-9cd4-86b53fc7e7d9" daotype="derived" coverage="whole" href="https://metafad-icar.cultura.gov.it/rest/dam/diplomatico-firenze/get/2ff1a4cc-0856-4ffe-9cd4-86b53fc7e7d9/original" linkrole="image/jpg" label="R 1.1"/>
+                    <ead:dao identifier="ea46472a-cdbf-4794-bac3-c1f82f7f8180" daotype="derived" coverage="whole" href="https://metafad-icar.cultura.gov.it/rest/dam/diplomatico-firenze/get/ea46472a-cdbf-4794-bac3-c1f82f7f8180/original" linkrole="image/jpg" label="V 1.1"/>
+                  </ead:daoset>
+                </ead:did>
+                <ead:relations>
+                  <ead:relation relationtype="resourcerelation">
+                    <ead:relationentry localtype="complArchSup">ICAR CA 7649</ead:relationentry>
+                  </ead:relation>
+                </ead:relations>
+                <ead:controlaccess>
+                  <ead:genreform>
+                    <ead:part>Pergamena</ead:part>
+                  </ead:genreform>
+                  <ead:persname localtype="voceIndice">
+                    <ead:part>Gherardo del fu ser Paolo Riccoldi</ead:part>
+                  </ead:persname>
+                  <ead:persname relator="Notaio">
+                    <ead:part localtype="persona">Gherardo del fu ser Paolo Riccoldi</ead:part>
+                  </ead:persname>
+                </ead:controlaccess>
+                <ead:relatedmaterial>
+                  <ead:archref>
+                    <ead:ref href="154408">Regesto in tomo 93 carta 249 R</ead:ref>
+                  </ead:archref>
+                </ead:relatedmaterial>
+                <ead:processinfo localtype="compilatori">
+                  <ead:processinfo localtype="compilatore">
+                    <ead:p>
+                      <ead:persname>
+                        <ead:part localtype="compilatore">Lucia</ead:part>
+                        <ead:part localtype="tipoIntervento">inserimento</ead:part>
+                      </ead:persname>
+                      <ead:date localtype="dataIntervento">06/08/2002</ead:date>
+                    </ead:p>
+                  </ead:processinfo>
+                </ead:processinfo>
+              </ead:c>
+            </ead:dsc>
+            <ead:dsc/>
+            <ead:dsc/>
+            <ead:dsc/>
+            <ead:dsc/>
+            <ead:dsc/>
+          </ead:archdesc>
+        </ead:ead>
+      </icar-import:recordBody>
+    </icar-import:record>
+    <icar-import:record>
+      <icar-import:recordHeader action="insert" type="scons">
+        <icar-import:id>metafad:sc-002</icar-import:id>
+        <icar-import:lastUpdate>2025-03-24T10:01:03</icar-import:lastUpdate>
+      </icar-import:recordHeader>
+      <icar-import:recordBody>
+        <scons:scons xmlns="http://www.san.beniculturali.it/scons2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://www.san.beniculturali.it/scons2 http://www.san.beniculturali.it/tracciato/scons2.xsd">
+          <scons:info>
+            <scons:evento dataEvento="2025-03-24T10:01:03" tipoEvento="creazione">
+              <scons:agente tipo="software"/>
+            </scons:evento>
+          </scons:info>
+          <scons:identificativi>
+            <scons:identificativosistema>ICAR</scons:identificativosistema>
+            <scons:identificativo tipo="ICAR" href="https://archiviodigitale-icar.cultura.gov.it/it/186/esplora/detailproduttoreconservatore/7646">ICAR ENT 7646</scons:identificativo>
+            <scons:altroidentificativo tipo="">ITASFI</scons:altroidentificativo>
+          </scons:identificativi>
+          <scons:denominazione qualifica="principale">Archivio di Stato di Firenze</scons:denominazione>
+          <scons:denominazione qualifica="acronimo">ASFI</scons:denominazione>
+          <scons:tipologia>TesauroSAN/organo_e_ufficio_statale_periferico_del_periodo_postunitario</scons:tipologia>
+          <scons:localizzazioni>
+            <scons:localizzazione principale="N" consultazione="S" privato="N" identificativo="1">
+              <scons:denominazione>Archivio di Stato di Firenze</scons:denominazione>
+              <scons:indirizzo comune="Firenze" paese="ITA" regione="Toscana" provincia="FI" denominazioneStradale="viale della Giovine Italia" numeroCivico="6" cap="50122"/>
+              <scons:contatto tipo="telefono">055263201</scons:contatto>
+              <scons:contatto tipo="mail">as-fi@cultura.gov.it</scons:contatto>
+              <scons:contatto tipo="sitoweb">https://archiviodistatofirenze.cultura.gov.it/asfi/home</scons:contatto>
+              <scons:orario>dalle 8:30 alle 17:30.</scons:orario>
+            </scons:localizzazione>
+          </scons:localizzazioni>
+          <scons:descrizione>Fu istituito come Archivio centrale dello Stato nel 1852 per volontà del granduca Leopoldo II su impulso di Francesco Bonaini, suo primo direttore.
+Dalle origini fino al 1988 l'Archivio di Stato di Firenze ha avuto sede nel palazzo degli Uffizi. Colpito dall’alluvione del 1966, nel 1988 è stato trasferito nel nuovo edificio di Piazza Beccarla, progettato da Italo Gamberini e inaugurato ufficialmente il 4 febbraio 1989.
+L’Archivio fiorentino ebbe origine nel 1852 come Archivio centrale dello Stato su impulso di Francesco Bonaini, che ne fu l’organizzatore e primo direttore. Docente di diritto dell’università pisana, Bonaini era espressione del milieu culturale e politico che si raccoglieva attorno a Giovan Pietro Vieusseux e a Gino Capponi e chiedeva da tempo una piena e qualificata apertura delle fonti documentarie al pubblico. Nel nuovo istituto affluirono le carte delle magistrature e degli uffici centrali del Granducato di Toscana anteriori al 1815, concentrazioni archivistiche risalenti al Medioevo, alla Repubblica fiorentina, e che furono ordinate secondo criteri metodologici innovatori, codificati nel paradigma del “metodo storico”.
+Dopo l'Unità d'Italia, stabilito che gli Archivi di Stato ricevessero la documentazione non più utile all'amministrazione corrente, anche l'Archivio di Stato di Firenze accolse i primi versamenti di carte degli uffici periferici dello Stato unitario. Altre acquisizioni importanti furono le carte dello Stato civile Toscano (1808-1865), l'archivio notarile moderno, il catasto toscano del secolo XIX e i numerosi archivi privati acquistati, donati o depositati.
+A fronte di tali significative acquisizioni si poneva però con evidenza per l'Archivio di Stato il problema della mancanza di spazi per ulteriori accrescimenti, problema a cui si aggiunse lo sconvolgente evento dell'alluvione del 4 novembre 1966, che danneggiò in misura rilevante il patrimonio documentario, accentuando l'esigenza di trovare un'altra sede all'istituto fiorentino. Individuata l'area idonea in piazza Beccaria, lungo la cerchia dei viali di circonvallazione progettati nell'Ottocento dall'architetto Giuseppe Poggi, il nuovo edificio fu progettato da Italo Gamberini e dal gruppo di architetti da lui diretto e inaugurato ufficialmente il 4 febbraio 1989.
+L’Archivio di Stato di Firenze, secondo quanto previsto dal Codice dei beni culturali e del paesaggio (D. leg.vo 42/2004), esercita le attività di conservazione, tutela e valorizzazione del patrimonio archivistico conservato. In particolare: promuove e realizza progetti ed eventi culturali che favoriscono la valorizzazione del patrimonio archivistico conservato; svolge attività scientifiche ed educative atte a favorire la diffusione delle conoscenze del patrimonio archivistico conservato; svolge attività di tutela nei confronti degli archivi correnti degli Organi e Uffici periferici dello Stato nella città e provincia di Firenze.
+Presso l'Archivio di Stato di Firenze è attiva una Scuola di archivistica, paleografia e diplomatica di durata biennale​. L'Istituto, inoltre, ha una biblioteca che possiede ca. 50.000 unità tra volumi, opuscoli, e periodici, tra cui 4 incunaboli, 205 cinquecentine e 395 testate di periodici di argomento archivistico, storico, giuridico-istituzionale e di interesse locale. L’Archivio di Stato di Firenze conserva la documentazione prodotta dalle istituzioni preunitarie e da quelle statali post-unitarie comprese, in genere, nel territorio della provincia, nonché archivi di enti pubblici, di famiglie, di persone, di associazioni e di altri organismi privati che rivestono un interesse storico particolarmente importante.</scons:descrizione>
+          <scons:servizi/>
+          <scons:relazioni>
+            <scons:relazione tipo="CONS" href="https://archiviodigitale-icar.cultura.gov.it/it/186/esplora/detailproduttoreconservatore/7646">ICAR ENT 7646</scons:relazione>
+            <scons:relazione tipo="URL" href="https://sias.archivi.beniculturali.it/cgi-bin/pagina.pl?RicVM=progetto&amp;amp;RicProgetto=as-firenze">Patrimonio documentario nel Sistema Informativo degli Archivi di Stato</scons:relazione>
+            <scons:relazione tipo="COMPL" href="https://archiviodigitale-icar.cultura.gov.it/it/185/ricerca/detail/7647">ICAR CA 7647</scons:relazione>
+            <scons:relazione tipo="COMPL" href="https://archiviodigitale-icar.cultura.gov.it/it/185/ricerca/detail/2758535">ICAR CA 2758535</scons:relazione>
+            <scons:relazione tipo="COMPL" href="https://archiviodigitale-icar.cultura.gov.it/it/185/ricerca/detail/2722310">ICAR CA 2722310</scons:relazione>
+          </scons:relazioni>
+        </scons:scons>
+      </icar-import:recordBody>
+    </icar-import:record>
+    <icar-import:record>
+      <icar-import:recordHeader action="insert" type="eac-cpf">
+        <icar-import:id>metafad:sp-003</icar-import:id>
+        <icar-import:lastUpdate>2025-03-24T10:01:03</icar-import:lastUpdate>
+      </icar-import:recordHeader>
+      <icar-import:recordBody>
+        <eac-cpf:eac-cpf xmlns="urn:isbn:1-931666-33-4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="urn:isbn:1-931666-33-4 http://eac.staatsbibliothek-berlin.de/schema/cpf.xsd">
+          <eac-cpf:control>
+            <eac-cpf:recordId>ICAR_ENT_7648</eac-cpf:recordId>
+            <eac-cpf:otherRecordId localType="metafad">Produttore-105</eac-cpf:otherRecordId>
+            <eac-cpf:maintenanceStatus>derived</eac-cpf:maintenanceStatus>
+            <eac-cpf:publicationStatus>approved</eac-cpf:publicationStatus>
+            <eac-cpf:maintenanceAgency>
+              <eac-cpf:agencyCode>IT-ICAR</eac-cpf:agencyCode>
+              <eac-cpf:agencyName>Istituto centrale per gli archivi</eac-cpf:agencyName>
+            </eac-cpf:maintenanceAgency>
+            <eac-cpf:maintenanceHistory>
+              <eac-cpf:maintenanceEvent>
+                <eac-cpf:eventType>created</eac-cpf:eventType>
+                <eac-cpf:eventDateTime>2025-03-24T10:01:03</eac-cpf:eventDateTime>
+                <eac-cpf:agentType>machine</eac-cpf:agentType>
+                <eac-cpf:agent>ASFI-Diplomatico</eac-cpf:agent>
+              </eac-cpf:maintenanceEvent>
+            </eac-cpf:maintenanceHistory>
+          </eac-cpf:control>
+          <eac-cpf:cpfDescription>
+            <eac-cpf:identity localType="soggettoProduttore">
+              <eac-cpf:entityType>corporateBody</eac-cpf:entityType>
+              <eac-cpf:nameEntry>
+                <eac-cpf:part>Firenze, Accademia della Colombaria</eac-cpf:part>
+              </eac-cpf:nameEntry>
+            </eac-cpf:identity>
+            <eac-cpf:description>
+              <eac-cpf:existDates>
+                <eac-cpf:dateRange>
+                  <eac-cpf:fromDate standardDate="1735-01-01">1735-01-01</eac-cpf:fromDate>
+                  <eac-cpf:toDate standardDate="2099-12-31">2099-12-31</eac-cpf:toDate>
+                </eac-cpf:dateRange>
+              </eac-cpf:existDates>
+            </eac-cpf:description>
+            <eac-cpf:relations>
+              <eac-cpf:resourceRelation resourceRelationType="creatorOf" xlink:href="https://archiviodigitale-icar.cultura.gov.it/it/185/ricerca/detail/7649">
+                <eac-cpf:relationEntry localType="complesso">ICAR CA 7649</eac-cpf:relationEntry>
+              </eac-cpf:resourceRelation>
+            </eac-cpf:relations>
+          </eac-cpf:cpfDescription>
+        </eac-cpf:eac-cpf>
+      </icar-import:recordBody>
+    </icar-import:record>
+  </icar-import:listRecords>
+</icar-import:icar-import>
