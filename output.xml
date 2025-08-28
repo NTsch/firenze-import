@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <cei:cei xmlns:cei="http://www.monasterium.net/NS/cei"
     xmlns:ead="http://ead3.archivists.org/schema/"
     xmlns:icar-import="http://www.san.beniculturali.it/icar-import">
@@ -21,7 +22,6 @@
                 <cei:body>
                     <cei:idno>ICAR UD 7650</cei:idno>
                     <cei:chDesc>
-                        <cei:h1>1264 Dicembre 2, Accademia della Colombaria (dono)</cei:h1>
                         <cei:issued>
                             <cei:date value="12641202">1264 Dicembre 2</cei:date>
                         </cei:issued>
@@ -68,7 +68,6 @@
                 <cei:body>
                     <cei:idno>ICAR UD 7651</cei:idno>
                     <cei:chDesc>
-                        <cei:h1>1295 Giugno 26, Accademia della Colombaria (dono)</cei:h1>
                         <cei:issued>
                             <cei:date value="12950626">1295 Giugno 26</cei:date>
                         </cei:issued>
@@ -115,7 +114,6 @@
                 <cei:body>
                     <cei:idno>ICAR UD 7652</cei:idno>
                     <cei:chDesc>
-                        <cei:h1>1318 Settembre 7, Accademia della Colombaria (dono)</cei:h1>
                         <cei:issued>
                             <cei:date value="13180907">1318 Settembre 7</cei:date>
                         </cei:issued>
@@ -162,7 +160,6 @@
                 <cei:body>
                     <cei:idno>ICAR UD 7653</cei:idno>
                     <cei:chDesc>
-                        <cei:h1>1343 Aprile 4, Accademia della Colombaria (dono)</cei:h1>
                         <cei:issued>
                             <cei:date value="13430404">1343 Aprile 4</cei:date>
                         </cei:issued>
@@ -199,7 +196,6 @@
                 <cei:body>
                     <cei:idno>ICAR UD 7654</cei:idno>
                     <cei:chDesc>
-                        <cei:h1>1396 Novembre 17, Accademia della Colombaria (dono)</cei:h1>
                         <cei:issued>
                             <cei:date value="13961117">1396 Novembre 17</cei:date>
                         </cei:issued>
@@ -246,7 +242,6 @@
                 <cei:body>
                     <cei:idno>ICAR UD 7655</cei:idno>
                     <cei:chDesc>
-                        <cei:h1>1398 Dicembre 7, Accademia della Colombaria (dono)</cei:h1>
                         <cei:issued>
                             <cei:date value="13981207">1398 Dicembre 7</cei:date>
                         </cei:issued>

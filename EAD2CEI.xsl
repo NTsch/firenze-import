@@ -20,8 +20,10 @@
     
     <!--<xsl:variable name="img-file" select="doc('img_list_stutzmann.xml')"/>-->
     
+    <!--TODO: icar-import-Elemente - was brauch ich daraus?-->
+    
     <xsl:template match='icar-import:*'>
-        <xsl:apply-templates/>
+        <xsl:apply-templates select="//ead:ead"/>
     </xsl:template>
     
     <xsl:template match='ead:ead'>
@@ -207,6 +209,8 @@
             <xsl:apply-templates/>
         </cei:h1>
     </xsl:template>
+    
+    <xsl:template match="ead:unittitle[ancestor::ead:c[@level/data()='item']]"/>
     
     <xsl:template match="ead:scopecontent">
         <cei:abstract>
