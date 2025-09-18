@@ -163,7 +163,11 @@
                     <xsl:value-of select="ead:did/ead:unitid[@localtype='metaFAD']"/>
                 </cei:idno>
                 <cei:chDesc>
-                    <xsl:apply-templates/>
+                    <!--<xsl:apply-templates/>-->
+                    <cei:issued>
+                        <xsl:apply-templates select="ead:controlaccess/ead:geogname[@localtype='actum']"/>
+                        <xsl:apply-templates select="ead:did/ead:unitdate | ead:did/ead:unitdatestructured" mode='unify'/>
+                    </cei:issued>
                     <cei:witnessOrig>
                         <xsl:apply-templates select="ead:did/ead:daoset" mode="move"/>
                         <cei:archIdentifier>
@@ -176,6 +180,7 @@
                             <cei:ref target="{concat('https://archiviodigitale-icar.cultura.gov.it/it/185/ricerca/detail/', $icar_ud)}"></cei:ref>
                         </cei:archIdentifier>
                         <cei:physicalDesc>
+                            <xsl:apply-templates select="ead:controlaccess/ead:genreform"/>
                             <xsl:apply-templates select="ead:did/ead:physdesc | ead:did/ead:physdescstructured" mode='unify'/>
                         </cei:physicalDesc>
                     </cei:witnessOrig>
@@ -266,36 +271,48 @@
     
     <xsl:template match="ead:controlaccess"/>
     
+    <xsl:template match="ead:genreform">
+        <cei:material>
+            <xsl:apply-templates/>
+        </cei:material>
+    </xsl:template>
+    
+    <xsl:template match="ead:geogname[@localtype='actum']">
+        <cei:placename>
+            <xsl:apply-templates/>
+        </cei:placename>
+    </xsl:template>
+    
+    <xsl:template match="ead:part">
+        <xsl:apply-templates/>
+    </xsl:template>
+    
     <xsl:template match="ead:accessrestrict"/>
     
     <xsl:template match="ead:emph"/>
     
     <xsl:template match="ead:unitdate">
-        <cei:issued>
-            <xsl:choose>
-                <xsl:when test="contains(./@normal/data(), '/')">
-                    <cei:dateRange from="{concat(substring-before(./@normal/data(), '/'), '9999')}" to="{concat(substring-after(./@normal/data(), '/'), '9999')}">
-                        <xsl:apply-templates/>
-                    </cei:dateRange>
-                </xsl:when>
-                <xsl:when test="matches(./@normal/data(), '^\d{4}$')">
-                    <cei:date value="{concat(./@normal/data(), '9999')}">
-                        <xsl:apply-templates/>
-                    </cei:date>
-                </xsl:when>
-                <xsl:otherwise>
-                    <cei:date value='99999999'>
-                        <xsl:apply-templates/>
-                    </cei:date>
-                </xsl:otherwise>
-            </xsl:choose>
-        </cei:issued>
+        <xsl:choose>
+            <xsl:when test="contains(./@normal/data(), '/')">
+                <cei:dateRange from="{concat(substring-before(./@normal/data(), '/'), '9999')}" to="{concat(substring-after(./@normal/data(), '/'), '9999')}">
+                    <xsl:apply-templates/>
+                </cei:dateRange>
+            </xsl:when>
+            <xsl:when test="matches(./@normal/data(), '^\d{4}$')">
+                <cei:date value="{concat(./@normal/data(), '9999')}">
+                    <xsl:apply-templates/>
+                </cei:date>
+            </xsl:when>
+            <xsl:otherwise>
+                <cei:date value='99999999'>
+                    <xsl:apply-templates/>
+                </cei:date>
+            </xsl:otherwise>
+        </xsl:choose>
     </xsl:template>
     
     <xsl:template match="ead:unitdatestructured">
-        <cei:issued>
-            <xsl:apply-templates/>
-        </cei:issued>
+       <!--TODO!!-->
     </xsl:template>
     
     <xsl:template match="ead:dateset">
